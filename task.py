@@ -34,6 +34,7 @@ print(genres)
 print(f" {genres[1]} {genres[-2]}")
 '''
 
+'''
 #Question3
 
 money = [1000,1200,800,110]
@@ -49,3 +50,22 @@ money = money[::-1]
 print(money)
 
 print
+'''
+
+#Question4
+courses = ["MTH 101", "PHY 101", "CHM 101", "CSC 101", "GST 101"]
+
+courses.insert(0,"ENG")
+print(courses)
+
+#courses.remove([1-])
+#print(courses)
+
+courses.insert(2,"BIO 101")
+print(courses)
+
+courses = len(courses)
+print(courses)
+
+
+print(f"third course: {courses[2]}")
